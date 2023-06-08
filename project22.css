@@ -1,0 +1,81 @@
+#sub::before{
+    content: "developing";
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color:red;
+    animation-play-state: inherit;
+
+    
+    
+}
+ @keyframes animate {
+  0%{
+     content: "Fullstack-JAVA";
+  }
+  20%{
+     content: "PYTHON";
+  }
+  35%{
+     content: "DATA ENGINEERING";
+  }
+  60%{
+    content: "DEVOPS";
+  }
+ 
+  
+ }
+ #footer{
+    border: 1px solid white;
+    height: 200px;
+    margin-top: 10%;
+  }
+  #video:hover{
+    border: 4px solid white;
+    background:red;
+    box-shadow: 0 0 5px pink, 0 0 10px red, 0 0 50px pink, 0 0 50px red;
+ }
+/*  
+    @media (max-width: 768px) {
+        #hehe {
+            font-size: 1.5rem;
+        }
+    } */
+
+
+
+ /* #hehe {
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: block;
+    padding-left: 20px;
+    padding-top: 10vh;
+    font-size: 3rem;
+  }
+  
+  @media screen and (max-width: 576px) {
+    #hehe {
+      font-size: 2rem;
+    }
+  } */
+  #footer {
+    background-color: #ff96ad;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border: 1px solid white;
+    height: 200px;
+    margin-top: 130px;
+
+
+
+    
+    
+    
+  }
+  @media (max-width: 768px) {
+    #hehe {
+        font-size: 1.5rem;
+    }
+}

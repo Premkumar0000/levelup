@@ -1,0 +1,74 @@
+/* Add your CSS modifications here */
+
+/* Adjust the height of carousel images */
+.carousel-item img {
+  height: auto;
+  max-height: 500px;
+  width: 50%;
+}
+
+/* Add padding to the "WELCOME TO LEVEL UP" heading */
+h1 {
+  padding: 5% 0;
+}
+
+/* Center align the "LEVEL UP INTERVIEW WARM UP" heading */
+#let {
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: block;
+  padding-left: 20px;
+  padding-top: 10vh;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 576px) {
+  #let {
+    font-size: 2rem;
+  }
+}
+
+
+
+/* Style the START button */
+#oh {
+  margin-top: 1%;
+  margin-left: 43%;
+  border-radius: 5%;
+  text-decoration: none;
+  height: 50px;
+  width: 15%;
+  color: white;
+  background-color: green;
+  font-size: larger;
+}
+
+#oh:hover {
+  background: green;
+  box-shadow: 0 0 5px green, 0 0 10px green, 0 0 50px green, 0 0 100px green;
+}
+
+/* Style the footer */
+#footer {
+  background-color: #ff96ad;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  border: 1px solid white;
+  height: 200px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #oh {
+    width: 40%;
+    font-size: medium;
+    margin-left: 30%;
+  }
+}
